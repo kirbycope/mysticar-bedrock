@@ -8,7 +8,7 @@ scoreboard objectives add facing dummy
 scoreboard objectives add honk_timer dummy
 #scoreboard objectives add racing trigger
 scoreboard objectives add sprinting dummy
-scoreboard objectives add dummy
+scoreboard objectives add walking dummy
 
 
 ######################
