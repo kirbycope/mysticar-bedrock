@@ -2,4 +2,4 @@
 scoreboard objectives add loaded dummy
 scoreboard players add global loaded 0
 scoreboard players operation @s loaded = global loaded
-execute as @s[scores={loaded=0}] run function init-world
+execute @s[scores={loaded=0}] ~ ~ ~ function init-world

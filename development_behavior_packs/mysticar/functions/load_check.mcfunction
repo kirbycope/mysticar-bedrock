@@ -1,1 +1,1 @@
-execute as @a[c=1] run function load_commands
+execute @a[c=1] ~ ~ ~  function load_commands
