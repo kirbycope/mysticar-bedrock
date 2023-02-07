@@ -1,0 +1,21 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Mysticar",
+        "description": "Mysticar Behavior Pack",
+        "uuid": "3d5bb818-e676-443a-8640-97352043fabc",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 18, 0 ]
+    },
+    "metadata": {
+        "authors": [ "Kirbycope" ]
+    },
+    "modules": [
+        {
+            "description": "Behavior",
+            "type": "data",
+            "uuid": "243b0f74-5d40-4fd9-9767-4d3ce1194820",
+            "version": [ 1, 0, 0 ]
+        }
+    ]
+}
