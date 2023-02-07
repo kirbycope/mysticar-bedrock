@@ -1,2 +1,2 @@
 # Initialize new players
-execute as @a[tag=!init] run function init-player
+execute @a[tag=!init] ~ ~ ~ function init-player
