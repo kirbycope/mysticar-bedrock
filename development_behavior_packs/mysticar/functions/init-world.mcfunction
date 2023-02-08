@@ -6,7 +6,7 @@ scoreboard objectives add countdown dummy
 scoreboard objectives add crouching dummy
 scoreboard objectives add facing dummy
 scoreboard objectives add honk_timer dummy
-#scoreboard objectives add racing trigger
+scoreboard objectives add racing dummy
 scoreboard objectives add sprinting dummy
 scoreboard objectives add walking dummy
 
@@ -222,3 +222,9 @@ setblock 0 81 0 minecraft:tripWire
 setblock -1 81 0 minecraft:tripWire
 # Car - Roof
 fill 0 82 -1 -1 82 1 minecraft:carpet 15
+
+# Player 1 Button Label
+summon minecraft:armor_stand "Player 1" -3 128 50
+
+# Player 2 Button Label
+summon minecraft:armor_stand "Player 2" 3 128 50
