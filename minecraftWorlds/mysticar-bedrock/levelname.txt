@@ -1,1 +1,1 @@
-mysticar-bedrock
+mysticar-java
