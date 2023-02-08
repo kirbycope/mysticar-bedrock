@@ -8,7 +8,13 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.1
+			},
 			"minecraft:nameable": {
+			},
+			"minecraft:persistent":{
 			},
 			"minecraft:physics": {
 				"has_gravity": false,
