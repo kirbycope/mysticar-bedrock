@@ -224,7 +224,7 @@ setblock -1 81 0 minecraft:tripWire
 fill 0 82 -1 -1 82 1 minecraft:carpet 15
 
 # Player 1 Button Label
-summon minecraft:armor_stand "Player 1" -3 128 50
+#summon minecraft:armor_stand "Player 1" -3 128 50
 
 # Player 2 Button Label
-summon minecraft:armor_stand "Player 2" 3 128 50
+#summon minecraft:armor_stand "Player 2" 3 128 50
