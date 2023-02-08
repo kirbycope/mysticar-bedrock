@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mysticar",
+		"description": "Mysticar Resource Pack",
+		"uuid": "7da86a96-3765-7319-dd3e-5acf3a374723",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Mysticar",
+			"type": "resources",
+			"uuid": "6c72629c-92bf-b162-8237-3e91f5628485",
+			"version": [1, 0, 0]
+		}
+	]
+}

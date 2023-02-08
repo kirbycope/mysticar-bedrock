@@ -1,21 +1,30 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "Mysticar",
-        "description": "Mysticar Behavior Pack",
-        "uuid": "3d5bb818-e676-443a-8640-97352043fabc",
-        "version": [ 1, 0, 0 ],
-        "min_engine_version": [ 1, 18, 0 ]
-    },
-    "metadata": {
-        "authors": [ "Kirbycope" ]
-    },
-    "modules": [
-        {
-            "description": "Behavior",
-            "type": "data",
-            "uuid": "243b0f74-5d40-4fd9-9767-4d3ce1194820",
-            "version": [ 1, 0, 0 ]
-        }
-    ]
+	"format_version": 2,
+	"header": {
+		"name": "Mysticar",
+		"description": "Mysticar Behavior Pack",
+		"uuid": "ec1935d8-c51a-cfa0-7e9d-34e2de73d538",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "94ea9365-e85b-b02f-eb32-85b7e23daf23",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "7da86a96-3765-7319-dd3e-5acf3a374723",
+			"version": [1, 0, 0]
+		}
+	]
 }
