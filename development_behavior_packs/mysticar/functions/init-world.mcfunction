@@ -225,6 +225,8 @@ fill 0 82 -1 -1 82 1 minecraft:carpet 15
 
 # Player 1 Button Label
 #summon minecraft:armor_stand "Player 1" -3 128 50
+summon mysticar:label_entity "Player 1" -3 129.1 50
 
 # Player 2 Button Label
 #summon minecraft:armor_stand "Player 2" 3 128 50
+summon mysticar:label_entity "Player 2" 3 129.1 50
