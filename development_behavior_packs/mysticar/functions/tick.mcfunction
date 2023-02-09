@@ -14,5 +14,4 @@ execute @a[tag=init,scores={racing=3}] ~ ~ ~ function move-car
 #execute @p at @s run function honk/check
 
 # Check for finish line
-#execute as @p[x=-7,y=128,z=-40,dx=14,dy=7,dz=0] unless score @s racing matches 0 run function race/end
 execute @p[x=-7,y=128,z=-40,dx=14,dy=7,dz=0,scores={racing=1..}] ~ ~ ~ function race/end
