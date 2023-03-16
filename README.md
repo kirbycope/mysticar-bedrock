@@ -1,7 +1,7 @@
+![Mysticar](/mysticar-bedrock.png)
+
 # mysticar-bedrock
 The Mysticat car for Minecraft Bedrock Edition
-
-![Mysticar](/mysticar-bedrock.png)
 
 ## Installation
 1. Download the [.mctemplate file](https://github.com/kirbycope/mysticar-bedrock/raw/main/mysticar-bedrock.mctemplate)
