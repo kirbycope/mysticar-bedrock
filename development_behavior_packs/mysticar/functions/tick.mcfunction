@@ -1,17 +1,17 @@
 # Initialize new players
-execute @a[tag=!init] ~ ~ ~ function init-player
+execute as @a[tag=!init] at @s run function init-player
 
 # Start race
-execute @a[tag=init,scores={racing=1}] ~ ~ ~ function race/start
+execute as @a[tag=init,scores={racing=1}] at @s run function race/start
 
 # Countdown
-execute @a[tag=init,scores={racing=2}] ~ ~ ~ function race/check
+execute as @a[tag=init,scores={racing=2}] at @s run function race/check
 
 # Move the car
-execute @a[tag=init,scores={racing=3}] ~ ~ ~ function move-car
+execute as @a[tag=init,scores={racing=3}] at @s run function move-car
 
 # Honk honk
 #execute @p at @s run function honk/check
 
 # Check for finish line
-execute @p[x=-7,y=128,z=-40,dx=14,dy=7,dz=0,scores={racing=1..}] ~ ~ ~ function race/end
+execute as @p[x=-7,y=128,z=-40,dx=14,dy=7,dz=0,scores={racing=1..}] at @s run function race/end

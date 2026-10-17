@@ -1,5 +1,5 @@
 # North
-execute @s ~ ~ ~ function clone/facing-north
+execute as @s at @s run function clone/facing-north
 
 # East
 

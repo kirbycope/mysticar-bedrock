@@ -4,19 +4,16 @@
 		"name": "Mysticar",
 		"description": "Mysticar Behavior Pack",
 		"uuid": "ec1935d8-c51a-cfa0-7e9d-34e2de73d538",
-		"version": [1, 0, 0],
-		"min_engine_version": [1, 16, 0]
+		"version": [1, 1, 0],
+		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
-		"authors": ["Kirbycope"],
-		"generated_with": {
-			"blockbench_entity_wizard": ["1.1.1"]
-		}
+		"authors": ["Kirbycope"]
 	},
 	"modules": [
 		{
 			"description": "Behavior",
-			"version": [1, 0, 0],
+			"version": [1, 1, 0],
 			"uuid": "94ea9365-e85b-b02f-eb32-85b7e23daf23",
 			"type": "data"
 		}
@@ -24,7 +21,7 @@
 	"dependencies": [
 		{
 			"uuid": "7da86a96-3765-7319-dd3e-5acf3a374723",
-			"version": [1, 0, 0]
+			"version": [1, 1, 0]
 		}
 	]
 }
